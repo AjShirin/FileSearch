@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.*;
 
-public class SearchWord {
+public class SearchWordTry {
 	
 	 public static void main(String[] args){
 //		 File folder = new File("C:\\Users\\user020\\Desktop");

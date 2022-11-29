@@ -2,7 +2,7 @@ package SearchFromFile;
 
 import java.util.Scanner;
 
-public class Searching {
+public class SearchingMainRun {
 
 	static void userChoiceFunction() {
 
@@ -10,7 +10,7 @@ public class Searching {
 		System.out.println("Welcome...Please Select one of the following options:");
 		System.out.println("1. Read file");
 		System.out.println("2. Search Words from file");
-		System.out.println("3.Creat a Directory");
+		System.out.println("3. Creat a Directory");
 		System.out.println("4. Exit the system ");
 		System.out.println("___________________________________");
 	}
@@ -30,8 +30,8 @@ public class Searching {
 				break;
 
 			case 2:
-				SearchWord searchWordObject = new SearchWord();
-				searchWordObject.SearchWordFunction();
+				findWord findWordObject = new findWord();
+				findWordObject.searchWordFunction();
 				userChoiceFunction();
 
 				break;
